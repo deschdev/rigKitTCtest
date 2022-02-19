@@ -1,0 +1,2 @@
+# rigKitTCtest
+Vanilla Javascript JSON 
