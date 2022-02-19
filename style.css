@@ -1,0 +1,43 @@
+* {
+	font-family: Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+div {
+	margin-bottom: 25px;
+}
+
+#imageDiv {
+	display: inline-flex;
+	text-align: center;
+	word-wrap: normal;
+}
+
+img {
+  max-height: 258px;
+  max-width: 258px;
+	margin: auto;
+	padding: 48px;
+}
+
+button {
+	display: center;
+	text-align: center;
+	border: none;
+	height: 33px;
+	width: 250px;
+	margin-bottom: 25px;
+  background-color: #69a9e9;
+  color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  
+  div {
+  width: 90% !important;
+  display: block !important; /* Stops it from floating */
+  margin: auto !important; /* Ensures that it is centered */
+  margin-bottom: 25px !important; /* Space between the stacked elements */
+  }
+  
+}
