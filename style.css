@@ -34,10 +34,10 @@ button {
 @media screen and (min-width: 320px) and (max-width: 600px) {
   
   div {
-  width: 90% !important;
+  width: 90%;
   display: block !important; /* Stops it from floating */
   margin: auto !important; /* Ensures that it is centered */
-  margin-bottom: 25px !important; /* Space between the stacked elements */
+  margin-bottom: 25px; /* Space between the stacked elements */
   }
   
 }
